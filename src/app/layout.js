@@ -9,7 +9,7 @@ export const metadata = {
   image: "",
   type: "website",
   description: "This is the leaderboard for the GDSC PU Jams.",
-  keywords: ["gccp", "jams", "pu", "gdscpu"],
+  keywords: ["gccp", "jams", "biet", "gdscbiet"],
   robots: "index,follow",
 
   "og:title": "GDSC PU Leaderboard",
