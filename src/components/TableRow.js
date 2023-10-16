@@ -9,7 +9,6 @@ function TableRow({ participant }) {
         {participant["Total Completions of both Pathways"] == "Yes" ? "🏅" : ""}
       </td>
 
-
       <td className="Redemption_Status p-3 relative">
         <div
           className={`w-fit m-auto rounded-3xl px-4 py-1 text-center ${
@@ -25,13 +24,15 @@ function TableRow({ participant }) {
       <td className="Institution mob:hidden relative p-3">
         <div
           className={`m-auto w-fit rounded-3xl px-2 py-1 text-center ${
-            participant["Institution"] == "Poornima University - Jaipur"
+            participant["Institution"] ==
+            "Bundelkhand Institute of Engineering and Technology Jhansi"
               ? "bg-green-200 text-green-600"
               : "bg-yellow-200 text-yellow-600"
           }`}
         >
-          {participant["Institution"] == "Poornima University - Jaipur"
-            ? "PU"
+          {participant["Institution"] ==
+          "Bundelkhand Institute of Engineering and Technology Jhansi"
+            ? "BIET"
             : "Other"}
         </div>
       </td>

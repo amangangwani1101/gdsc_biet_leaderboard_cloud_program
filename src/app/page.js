@@ -128,12 +128,13 @@ export default function Home() {
       <TableIndex />
 
       <div className="  w-full p-2 text-center bg-gray-900 text-gray-300">
-        Devloped By{" "}
+        Site Managed By{" "}
         <a
-          href="https://avayyyyyyy.github.io/shubhlovesweb3/"
+          href="https://gdsc.community.dev/bundelkhand-institute-of-engineering-technology-jhansi/"
           className="text-orange-400"
+          target="_blank"
         >
-          Shubhankit Jain
+          GDSC - BIET Technical Team
         </a>
       </div>
     </>
