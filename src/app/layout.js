@@ -12,7 +12,7 @@ export const metadata = {
   keywords: ["gccp", "jams", "biet", "gdscbiet"],
   robots: "index,follow",
 
-  "og:title": "GDSC PU Leaderboard",
+  "og:title": "GDSC BIET Leaderboard",
   "og:image": "",
   "og:description": "This is the leaderboard for the GDSC PU Jams.",
   "twitter:card": "summary_large_image",
